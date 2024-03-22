@@ -99,8 +99,8 @@
         <% for(let listings of allListings ){ %>
             <a href="/listings/<%= listings._id %>" class="listing-link">
             <div class="card col listing-card">
-                <div style="position: relative;"><i style="z-index: 100; position: absolute; top: 10px; right: 10px; font-size: 24px; color: rgb(144, 8, 33); " class="fa-solid fa-heart" ></i>
-                    <img src=" <%= listings.image.url %>" class="card-img-top" alt="listing_image" style="height: 20rem"></div>
+                <div style="position: relative;"><i style=" filter: drop-shadow(0px 0px 5px black); z-index: 100; position: absolute; top: 10px; right: 10px; font-size: 24px; color: rgb(144, 8, 33); " class="fa-solid fa-heart" ></i>
+                    <img src=" <%= listings.image.url %>" class="card-img-top" alt="listing_image" style=" filter: drop-shadow(0px 5px 10px black); height: 20rem"></div>
                 <div class="card-img-overlay"></div>
                  <div class="card-body">
                   <p class="card-text">
